@@ -1,0 +1,47 @@
+<!--
+    viewer.html
+    Holds the OSD viewer
+    By Nicholas Verrochi and Vidhya Sree N
+    For CS410 - The Axolotl Project
+-->
+
+<html>
+
+<head>
+    <title>Viewer</title>
+    <link rel="stylesheet" href="style/viewer.css">
+    <link rel="stylesheet" href="style/grid.css">
+
+    <!-- library imports -->
+    <script src="lib/openseadragon.min.js"></script>
+    <script src="lib/openseadragon-annotorious.min.js"></script>
+    <script src="lib/annotorious-shape-labels.min.js"></script>
+    <script src="lib/fabricjs.min.js"></script>
+    <script src="lib/openseadragon-fabricjs-overlay.js"></script>
+    <script src="lib/dexie.min.js"></script>
+    <script src="lib/openseadragon-scalebar.js"></script>
+    <link rel="stylesheet" href="lib/annotorious.min.css">
+
+    <!-- OSDMeasure classes -->
+    <script src="js/OSDMeasure/src/controllers/DexieWrapper.js"></script>
+    <script src="js/OSDMeasure/src/controllers/OSDMeasure.js"></script>
+    <script src="js/OSDMeasure/src/models/Measurement.js"></script>
+    <script src="js/OSDMeasure/src/models/Point.js"></script>
+    <script src="js/OSDMeasure/src/views/ButtonBar.js"></script>
+    <script src="js/OSDMeasure/src/views/MeasurementList.js"></script>
+    <script src="js/OSDMeasure/src/views/MeasurementListItem.js"></script>
+    <script src="js/OSDMeasure/src/views/Menu.js"></script>
+    <script src="js/OSDMeasure/src/views/MenuButton.js"></script>
+    <script src="js/OSDMeasure/src/views/UI.js"></script>
+
+    <script src="js/AnnotationHelper.js"></script>
+    <script src="js/GridViewerPlugin.js"></script>
+    <script src="js/viewer.js"></script>
+
+</head>
+
+<body>
+    <div class="centered" id="viewer"></div>
+</body>
+
+</html>
